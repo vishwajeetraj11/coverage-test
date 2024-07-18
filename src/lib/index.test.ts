@@ -13,5 +13,6 @@ describe('sum function', () => {
 
   it('returns zero when both inputs are zero', () => {
     expect(sum(0, 0)).toBe(0);
+    expect(sum(1, 0)).toBe(1);
   });
 });
